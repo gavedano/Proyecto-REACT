@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <NavBarBootstrap />
-      <ItemListContainer greeting={"Bienvenidos"} />
+      <ItemListContainer greeting={"Bienvenidos a la Tienda Virtual"} />
     </div>
   );
 }
