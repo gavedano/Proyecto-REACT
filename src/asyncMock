@@ -1,0 +1,28 @@
+const products = [
+  {
+    id: "1",
+    name: "Iphone 12",
+    price: 1000,
+    category: "celular",
+    img: "https://cbafederal.net/index.php/product/iphone-12-64gb-4gb-ram",
+    stock: 25,
+    description: "Descripcion de Iphone 12",
+  },
+  {
+    id: "2",
+    name: "Samsung S21 ",
+    price: 800,
+    category: "celular",
+    img: "https://images.samsung.com/is/image/samsung/p6pim/ar/galaxy-s21/gallery/ar-galaxy-s21-5g-g991-sm-g991bzalaro-thumb-368338803?imwidth=480",
+    stock: 10,
+    description: "Descripcion de Samsung S21",
+  },
+];
+
+export const getProducts = () => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(products);
+    }, 500);
+  });
+};
