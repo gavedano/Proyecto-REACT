@@ -1,0 +1,6 @@
+.ItemsInicio:hover {
+  border: 4px solid blue;
+}
+.ItemsInicio {
+  padding: 1em;
+}

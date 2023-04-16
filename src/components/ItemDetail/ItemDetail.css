@@ -1,0 +1,6 @@
+.items:hover {
+  border: 4px solid orange;
+}
+.items {
+  padding: 1em;
+}
