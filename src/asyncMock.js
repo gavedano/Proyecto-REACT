@@ -26,6 +26,33 @@ const products = [
     stock: 15,
     description: "Descripcion de Motorola Edge 30",
   },
+  {
+    id: "4",
+    name: "Funda Iphone 12",
+    price: 200,
+    category: "accesorios",
+    img: "https://http2.mlstatic.com/D_NQ_NP_722185-MLA50213933278_062022-O.webp",
+    stock: 15,
+    description: "Funda Iphone 12",
+  },
+  {
+    id: "5",
+    name: "Funda Motorola Edge 30",
+    price: 150,
+    category: "accesorios",
+    img: "https://armoto.vtexassets.com/arquivos/ids/163632-800-auto?v=638047756334230000&width=800&height=auto&aspect=true",
+    stock: 2,
+    description: "Funda Motorola Edge 30",
+  },
+  {
+    id: "6",
+    name: "Auriculares  inalámbricos JBL Tune",
+    price: 300,
+    category: "accesorios",
+    img: "https://http2.mlstatic.com/D_NQ_NP_621287-MLA46220004634_052021-O.webp",
+    stock: 4,
+    description: "Auriculares in-ear inalámbricos JBL Tune 115TWS black",
+  },
 ];
 
 export const getProducts = () => {

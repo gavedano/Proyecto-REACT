@@ -7,13 +7,13 @@ const NavBarBootstrap = () => {
     <>
       <Navbar bg="primary" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/Home ">
             <img src={logo} className="logo-nav" alt="main-logo" />
           </Navbar.Brand>
           <Nav className="ms-auto">
-            <Nav.Link href="#Celulares">Celulares</Nav.Link>
-            <Nav.Link href="#Computadores">Computadores</Nav.Link>
-            <Nav.Link href="#Tablets">Tablets</Nav.Link>
+            <Nav.Link href="/Catalogo">Catalogo</Nav.Link>
+            <Nav.Link href="/Celulares">Celulares</Nav.Link>
+            <Nav.Link href="/Accesorios">Accesorios</Nav.Link>
             <CartWidget />
           </Nav>
         </Container>
