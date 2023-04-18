@@ -7,7 +7,7 @@ const NavBarBootstrap = () => {
     <>
       <Navbar bg="primary" variant="dark">
         <Container>
-          <Navbar.Brand href="/Home ">
+          <Navbar.Brand href="/">
             <img src={logo} className="logo-nav" alt="main-logo" />
           </Navbar.Brand>
           <Nav className="ms-auto">

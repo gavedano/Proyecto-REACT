@@ -1,5 +1,7 @@
 //CREA LA TARJETA DEL ITEM
 import "./Item.css";
+import ItemDetail from "../ItemDetail/ItemDetail";
+
 const Item = ({ id, name, img, price, stock }) => {
   return (
     <div className="ItemsInicio">
@@ -15,7 +17,9 @@ const Item = ({ id, name, img, price, stock }) => {
           <p className="Info">Stock disponible: {stock}</p>
         </section>
         <footer className="ItemFooter">
-          <button className="Option">Ver detalle</button>
+          <button className="Option" onClick={<ItemDetail />}>
+            Ver detalle
+          </button>
         </footer>
       </article>
     </div>

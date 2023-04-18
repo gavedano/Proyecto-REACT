@@ -4,9 +4,9 @@ import { useEffect, useState } from "react";
 import { getProductById } from "../../asyncMock";
 import ItemDetail from "../ItemDetail/ItemDetail";
 import "./ItemDetailContainer.css";
+
 const ItemDetailContainer = () => {
   const [product, setProducts] = useState(null);
-
   useEffect(() => {
     getProductById("")
       .then((response) => {
